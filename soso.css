@@ -1,0 +1,80 @@
+*::before, *::after {
+    box-sizing: border-box;
+}
+.band {
+    background: #b9c6d4;
+    padding: 2px;
+    border-radius: 20px;
+    border: 2px solid #000000;
+}
+
+.band:nth-of-type(even) {
+    background: #7c97a0;
+    border-radius: 20px;
+    border: 2px solid #000000;
+}
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #000000;
+}
+
+.h2 {color: rgb(36, 22, 22);}
+
+.h1 {color: rgb(36, 22, 22);}
+
+.a {color: rgb(70, 6, 90);}
+
+.goal {color: rgb(36, 46, 10);}
+
+#btn :hover {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 16px;
+    color: #4c7530;
+    background-color: #00ff2a;
+    border: none;
+    border-radius: 800px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    background-color:#d19e3e;
+    border-radius: 5px;
+}
+body { font-family: Arial, sans-serif; margin: 0; background-color: rgba(142, 158, 165, 0.267) }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 16px 24px;
+    background: #7a5614;
+}
+.hobbies {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #1b6e4e;
+    border-radius: 100px;
+}
+
+.moi {
+    color: #0f171d;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+    
+    
+ 
+ .h1 {font-weight: 700; font-size: 2.5rem}
